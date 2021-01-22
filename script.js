@@ -50,11 +50,11 @@ const resetGame = () => {
 }
 
 document.querySelector('.check').addEventListener('click', checkUserInput);
-document.querySelector('.guess').addEventListener('keydown', (e) => {
-    if (e.code === 'Enter') {
-        checkUserInput;
-    } else if (e.key === 'Esc') {
-        resetGame;
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+        checkUserInput();
+    } else if (e.key === 'Escape') {
+        resetGame();
     }
 });
 
