@@ -4,3 +4,6 @@ If the user doesn't guess the number, the score degrease and the user lose point
 
 # Specification
 The scope of this game is to made with Vanilla Javscript without any Framework.
+
+# Play Game
+https://guess-my-number-6f2f9.web.app/
